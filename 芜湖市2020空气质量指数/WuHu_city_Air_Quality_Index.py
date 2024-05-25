@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['font.family'] = 'sans-serif'
 
-# 1、读取数据
+# 读取数据
 data = pd.read_csv('aqi.csv', encoding='utf-8')
 
 # 绘制 aqi 和 pm2.5 的关系散点图
